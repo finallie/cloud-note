@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/cloud-note/", // 设置站点的基础路径
   title: "note",
   description: "note",
   themeConfig: {
