@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       vitepress:
         specifier: ^1.6.3
         version: 1.6.3(@algolia/client-search@5.27.0)(postcss@8.5.4)(search-insights@2.17.3)

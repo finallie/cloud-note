@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "vitepress": "^1.6.3"
+  },
   "devDependencies": {
     "vitepress": "^1.6.3"
   },
