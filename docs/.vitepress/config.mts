@@ -28,7 +28,11 @@ export default defineConfig({
       "/数据库": [
         {
           text: "数据库",
-          items: [{ text: "MySQL", link: "/数据库/mysql" }],
+          items: [
+            { text: "MySQL", link: "/数据库/mysql" },
+            { text: "高性能MySQL", link: "/数据库/高性能MySQL" },
+            { text: "深入浅出存储引擎", link: "/数据库/深入浅出存储引擎" },
+          ],
         },
       ],
     },
