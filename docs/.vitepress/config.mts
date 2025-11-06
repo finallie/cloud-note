@@ -13,6 +13,7 @@ export default defineConfig({
         items: [
           { text: "操作系统", link: "/操作系统/linux内核" },
           { text: "数据库", link: "/数据库/mysql" },
+          { text: "java", link: "/java/java标准库" },
         ],
       },
     ],
@@ -32,6 +33,17 @@ export default defineConfig({
             { text: "MySQL", link: "/数据库/mysql" },
             { text: "高性能MySQL", link: "/数据库/高性能MySQL" },
             { text: "深入浅出存储引擎", link: "/数据库/深入浅出存储引擎" },
+            { text: "Redis", link: "/数据库/redis" },
+          ],
+        },
+      ],
+
+      "/java": [
+        {
+          text: "java",
+          items: [
+            { text: "java标准库", link: "/java/java标准库" },
+            { text: "jvm", link: "/java/jvm" },
           ],
         },
       ],
